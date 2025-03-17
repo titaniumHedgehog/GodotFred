@@ -5,7 +5,8 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Movement" type="Movement" parent="."]
+movement_speed = 5000.0
 
 [node name="Icon" type="Sprite2D" parent="Movement"]
-position = Vector2(559, 319)
+position = Vector2(135, 137)
 texture = ExtResource("1_avmlf")

@@ -49,3 +49,10 @@ void Movement::_bind_methods() {
 }
 
 }
+
+/*
+add_custom_command(
+	COMMAND "${CMAKE_SOURCE_DIR}/Godot_v4.0.4-stable_win64.exe\Godot_v4.0.4-stable_win64.exe"
+	DEPENDS gameplay
+)
+*/
