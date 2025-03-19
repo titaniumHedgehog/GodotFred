@@ -1,0 +1,13 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "dll",
+      "project": "CMakeLists.txt",
+      "projectTarget": "gameplay.dll (gameplay\\gameplay.dll)",
+      "name": "gameplay.dll (gameplay\\gameplay.dll)",
+      "exe": "c:\\projects\\GodotBase\\Godot_v4.4-stable_win64.exe\\Godot_v4.4-stable_win64.exe"
+    }
+  ]
+}
