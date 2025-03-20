@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbcjbm8ta3qmr"]
+
+[ext_resource type="Texture2D" uid="uid://dpxwnrxbrwm06" path="res://Assets/Archaeologist Sprite Sheet.png" id="1_jjgbg"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(264, 123)
+texture = ExtResource("1_jjgbg")
