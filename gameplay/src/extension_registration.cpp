@@ -5,6 +5,7 @@
 #include <godot_cpp/godot.hpp>
 #include <godot_cpp/core/class_db.hpp>
 #include <movement.h>
+#include "Fred.h"
 
 void register_gameplay_types(godot::ModuleInitializationLevel p_level) {
   if (p_level != godot::ModuleInitializationLevel::MODULE_INITIALIZATION_LEVEL_SCENE) {
@@ -12,6 +13,7 @@ void register_gameplay_types(godot::ModuleInitializationLevel p_level) {
   }
 
   godot::ClassDB::register_class<godot::Movement>();
+  godot::ClassDB::register_class<Fred>();
 }
 
 void unregister_gameplay_types(godot::ModuleInitializationLevel p_level) {

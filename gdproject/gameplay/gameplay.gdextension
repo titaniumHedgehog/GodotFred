@@ -2,4 +2,5 @@
 entry_symbol = "gameplay_library_init"
 
 [libraries]
-windows.debug.x86_64 = "bin/gameplay.dll"
+windows.debug.x86_64 = "res://out/build/x64-Debug/gameplay/gameplay.dll"
+

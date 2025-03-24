@@ -9,9 +9,9 @@ include(cmake/GDExtensionBindings.cmake)
 add_subdirectory(gameplay)
 
 add_custom_target(create_link ALL
-    COMMAND "${CMAKE_COMMAND}" -E make_directory "${CMAKE_SOURCE_DIR}/gdproject/gameplay/"
-    COMMAND "${CMAKE_COMMAND}" -E rm -rRf "${CMAKE_SOURCE_DIR}/gdproject/gameplay/bin/"
-    COMMAND "${CMAKE_COMMAND}" -E create_symlink "$<TARGET_FILE_DIR:gameplay>" "${CMAKE_SOURCE_DIR}/gdproject/gameplay/bin/"
+    COMMAND "${CMAKE_COMMAND}" -E make_directory "${CMAKE_SOURCE_DIR}/godotfred/gameplay/"
+    COMMAND "${CMAKE_COMMAND}" -E rm -rRf "${CMAKE_SOURCE_DIR}/godotfred/gameplay/bin/"
+    COMMAND "${CMAKE_COMMAND}" -E create_symlink "$<TARGET_FILE_DIR:gameplay>" "${CMAKE_SOURCE_DIR}/godotfred/gameplay/bin/"
     COMMENT "Creating symbolic link to build directory"
 )
 
